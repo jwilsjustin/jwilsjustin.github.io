@@ -1,0 +1,24 @@
+<%= form_for @fact, :html => { :class => 'form-horizontal' } do |f| %>
+  <fieldset>
+    <legend><%= controller.action_name.capitalize %> Fact</legend>
+
+    <div class="control-group">
+      <%= f.label :fact, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :fact, :class => 'text_field' %>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <%= f.label :description, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_area :description, :class => 'text_area' %>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to 'Cancel', facts_path, :class => 'btn' %>
+    </div>
+  </fieldset>
+<% end %>
