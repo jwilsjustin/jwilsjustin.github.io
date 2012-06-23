@@ -50,6 +50,7 @@ GEM
     json (1.7.3)
     less (2.2.1)
       commonjs (~> 0.2.6)
+    libv8 (3.3.10.4)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -110,6 +111,7 @@ DEPENDENCIES
   jquery-rails
   json
   less (~> 2.2.1)
+  libv8 (= 3.3.10.4)
   pg
   rails (= 3.2.2)
   rake (= 0.9.2.2)

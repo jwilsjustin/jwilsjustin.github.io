@@ -22,6 +22,8 @@ group :assets do
 
 end
 
+gem 'libv8', '3.3.10.4'
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
