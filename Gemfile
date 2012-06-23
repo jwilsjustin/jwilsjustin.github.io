@@ -13,7 +13,6 @@ gem 'json'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'less', '~> 2.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'
@@ -21,8 +20,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 
 end
-
-gem 'libv8', '3.3.10.4'
 
 gem 'jquery-rails'
 
