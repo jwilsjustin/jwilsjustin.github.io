@@ -2,9 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.2'
 
-gem "rake", "0.9.2.2"
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'sqlite3'
 
 gem 'json'
 
@@ -18,7 +19,6 @@ group :assets do
   # gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
-
 end
 
 gem 'jquery-rails'
