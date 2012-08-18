@@ -1,0 +1,3 @@
+Personal "About Me" site built in Rails
+
+[jwils.co](http://jwils.co)
