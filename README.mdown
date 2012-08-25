@@ -1,3 +1,3 @@
-Personal "About Me" site built in [Rails](http://rubyonrails.org/), using [Bootstrap](http://twitter.github.com/bootstrap/), and [LESS](http://lesscss.org/).
+Personal "About Me" site built in [Rails](http://rubyonrails.org/), using [Bootstrap](http://twitter.github.com/bootstrap/), [LESS](http://lesscss.org/) and [HAML](http://haml.info/).
 
 [jwils.co](http://jwils.co)
