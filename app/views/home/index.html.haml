@@ -1,29 +1,34 @@
-.container-fluid
-  .row-fluid
-    .span8
-      Hello
-    .span4
-      %h1 I like to design things
-      %br
-      %p Almost any practice that ends with the word design is something I would like. I feel like anything that is thought about is designed.
-      %br
-      %a{:href => "http://twitter.com/intent/user?screen_name=jwilsjustin", :class => "btn btn-info btn-large", :target => "_blank"}
-        %strong @jwilsjustin 
-        on Twitter &raquo;
-  .row-fluid
+.container
+  .row
+    .span12.spacer
+      %h1 &nbsp;
+  .row
+    .span12
+      %h1.light-header I like to design things.
+      %hr
+  .row
+    .span3.pull-right
+      %img.self{:src => "", :height => "40px", :width => "60px"}
     .span8
       %h2 Design is everywhere.
       %p It's in the chairs you sit in and in the cell phone in your pocket. It's in the words of a book and in the art on your walls. Design isn't just visuals. Designs are ideas. The word design is really an awesome term. For me design is all about decisions. And I hold to the opinion that some decisions don't need a reason for them.
       %p I'm always up for a new way of looking at things. My ideas stem from their purposes, and my design philosophy is simple: make things say what you want them to say.
-    .span4
+      %hr
+      .indentation
+        %a.minimal-indent{:href => "http://twitter.com/jwilsjustin", :target => "_blank"}
+          %strong @jwilsjustin 
+          on Twitter &raquo;
+
+    .span3.offset1
       %h2 Profiles
-      %ul
-        %li
-          %a{ :href => "http://twitter.com/intent/user?screen_name=jwilsjustin" }
+      %ul 
+        %li 
+          %a{:href => "https://twitter.com/jwilsjustin"}
             Twitter &raquo;
-        %li
-          %a{ :href => "http://dribbble.com/wilsonthefirst" }
+        %li 
+          %a{:href => "www.linkedin.com/pub/justin-wilson/3/a15/223"}
+            LinkedIn &raquo;
+        %li  
+          %a{:href => "http://dribbble.com/wilsonthefirst"}
             Dribbble &raquo;
-        %li
-          %a{ :href => "http://www.behance.net/justinwilson" }
-            Behance &raquo;
+      %hr
