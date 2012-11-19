@@ -1,8 +1,10 @@
 JwilsCo::Application.routes.draw do
   
-  root :to => "home#index"
+  root :to => "contents#index"
 
-  get "home/index"
+  get "contents/index"
+  match "/work" => "contents#work"
+  match "/resume" => "contents#resume" 
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

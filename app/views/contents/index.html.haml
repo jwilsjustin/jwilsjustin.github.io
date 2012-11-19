@@ -1,15 +1,17 @@
+- @title = "Justin Wilson"
+- @meta_description = "The website for Justin Wilson of Greenville SC."
+
 .container
   .row
     .span12.spacer
       %h1 &nbsp;
   .row
-    .span12
+    .span10
       %h1.light-header I like to design things.
       %hr
   .row
-    .span3.pull-right
-      %img.self{:src => "/assets/self-portrait-site.png", :width => "200px", :alt => "why would you be reading alt text??"}
-    .span8
+    = render "shared/sweet_nav"
+    .span9
       %h2 Design is everywhere.
       %p It's in the chairs you sit in and in the cell phone in your pocket. It's in the words of a book and in the art on your walls. Design isn't just visuals. Designs are ideas.
       %p I'm always up for a new way of looking at things.
@@ -22,23 +24,3 @@
         %a.minimal-indent{:href => "http://twitter.com/jwilsjustin", :target => "_blank"}
           %strong @jwilsjustin 
           on Twitter &raquo;
-
-    .span3.offset1
-      %h2 Profiles
-      %ul 
-        %li 
-          %a{:href => "https://twitter.com/jwilsjustin"}
-            Twitter &raquo;
-        %li 
-          %a{:href => "http://www.linkedin.com/pub/justin-wilson/3/a15/223"}
-            LinkedIn &raquo;
-        %li  
-          %a{:href => "http://dribbble.com/wilsonthefirst"}
-            Dribbble &raquo;
-      %hr
-  .row
-    .span12.hide
-      %hr
-      %h5 Recent tweet
-      %h6= @tweet
-

@@ -1,6 +1,4 @@
-class HomeController < ApplicationController
-
-  require 'rails_rinku'
+class ContentsController < ApplicationController
 
   def index
     @twitter_user = Twitter.user("jwilsjustin")
@@ -9,6 +7,12 @@ class HomeController < ApplicationController
     else
       @tweet = "(nothing found)"
     end
+  end
+
+  def resume
+  end
+
+  def work
   end
 
 end
