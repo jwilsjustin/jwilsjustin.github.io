@@ -17,4 +17,5 @@
   %body
     = yield
   %footer
-    = render "shared/google_analytics"
+    - unless Rails.env == "development"
+      = render "shared/google_analytics"
