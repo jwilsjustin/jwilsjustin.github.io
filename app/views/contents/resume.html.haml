@@ -6,48 +6,82 @@
   .row
     .span9
       %h1.light-header R&egrave;sum&egrave;
+  .row.spacer
   .row
     = render "shared/sweet_nav"   
     .span9
-      .section
-        %h2 Education
-        %p.pull-left
-          B.S. Graphic Design<br />
-          %em Minor: Rhetoric &amp; Public Address
-        %p.pull-right <strong>May 2011</strong>
-        .clearfix  
+      .row
+        .span8.section
+          %h2 Education
+          .item
+            %p
+              %strong B.S. Graphic Design<br />
+              %em Minor: Rhetoric &amp; Public Address<br />
+              Graduate Cum Laude
+            %p 
+              Bob Jones University<br />
+              May 2011
+      .row
+        .span8.section
+          %h2 Extracurricular
+          .item
+            %p 
+              %strong Bob Jones University Community Service Council<br />
+              %em Executive Council Member
+            %p March 2008 - May 2011
+          .item
+            %p 
+              %strong The Collegian
+              <span class="subtle">(BJU School Newspaper)</span><br />
+              %em Ad Designer / Design Editor
+            %p August 2010 - May 2011
+      .row    
+        .span8.section
+          %h2 Employment
+          .item
+            %p 
+              %strong Dealer Ignition<br />
+              %em Designer/Developer
+            %blockquote
+              %p.subtle
+                I helped design, build, and implement web software. I also designed materials and 
+                participated in marketing efforts to promote various Dealer Ignition products.
+            %p December 2010 - November 2012
+          .item
+            %p 
+              %strong Bob Jones University Usher Crew<br />
+              %em Usher
+            %blockquote
+              %p.subtle
+                I served as a representative and directed people for seating in both formal and informal speaking engagements and performances.Involved constant interaction with people.  
+            %p January 2010 - May 2011
+          .item  
+            %p 
+              %strong Northland Camp & Conference Center<br />
+              %em Lifeguard / Children’s Counselor
+            %blockquote
+              %p.subtle  
+                Served as a counselor and leader for children and children’s activities on a weekly basis (summer 2008). I was certified as a lifeguard and fulfilled life guarding responsibilities on a daily basis (summer 2007).
+            %p Summer 2007 / Summer 2008
 
-      .section
-        %h2 Extracurricular
-        %p.pull-left Bob Jones University Community Service Council
-        %p.pull-right <strong>March 2008 - May 2011</strong>
-        %p.pull-left <em>The Collegian</em> (BJU School Newspaper)
-        %p.pull-right <strong>August 2010 - May 2011</strong>
-        .clearfix
-
-      .section
-        %h2 Employment
-        %p.pull-left Dealer Ignition
-        %p.pull-right <strong>December 2010 - November 2012</strong>
-        %p.pull-left Bob Jones University Usher Crew
-        %p.pull-right <strong>January 2010 - May 2011</strong>
-        %p.pull-left Northland Camp & Conference Center
-        %p.pull-right <strong>Summer 2007 / Summer 2008</strong>
-        .clearfix
-
-      .section
-        %h2 Areas of Training &amp; Experience
-        %p 
-          Design Technology
-          %ul
-            %li Photoshop
-            %li Illustrator
-            %li InDesign
-        %p
-          Web Technology
-          %ul
-            %li HTML
-            %li CSS
-            %li Ruby on Rails (intermediate-level)
-      
+        .span8.section
+          %h2 Experience
+          .item
+            %p 
+              %strong Design Technology
+              %ul
+                %li Photoshop
+                %li Illustrator
+                %li InDesign
+          .item
+            %p
+              %strong Web Technology
+              %ul
+                %li HTML
+                %li CSS
+                %li Javascript/jQuery <span class="subtle">(some knowledge)</span>
+                %li Ruby on Rails <span class="subtle">(intermediate-level)</span>
+                %li Twitter Bootstrap
+                %li SEO <span class="subtle">(basic knowledge)</span>
+  .row.spacer
 
