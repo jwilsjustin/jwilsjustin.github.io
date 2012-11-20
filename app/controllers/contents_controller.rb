@@ -12,7 +12,7 @@ class ContentsController < ApplicationController
   def resume
   end
 
-  def work
+  def portfolio
   end
 
 end

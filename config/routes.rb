@@ -3,7 +3,7 @@ JwilsCo::Application.routes.draw do
   root :to => "contents#index"
 
   get "contents/index"
-  match "/work" => "contents#work"
+  match "/portfolio" => "contents#work"
   match "/resume" => "contents#resume" 
 
   # The priority is based upon order of creation:

@@ -1,15 +1,16 @@
 .span3.pull-right#sweet_nav
   .vr.pull-left
-  %img.self{:src => "/assets/self-portrait-site.png", :width => "200px", :alt => "why would you be reading alt text??"}
+  .self_img_div
+    %img.self{:src => "/assets/self-portrait-site.png", :alt => "why would you be reading alt text??"}
   %ul
     %li
       = link_to root_path, :class => "block-link" do
         Home
     %li
-      = link_to "#", :class => "block-link strike" do
+      = link_to "#", :class => "block-link block-link-blue", :style => "text-decoration: line-through" do
         Portfolio
     %li
-      = link_to "#", :class => "block-link strike" do
+      = link_to resume_path, :class => "block-link block-link-red" do
         R&egrave;sum&egrave;
 .clearfix
 %hr.visible-phone
