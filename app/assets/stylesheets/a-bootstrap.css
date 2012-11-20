@@ -1763,13 +1763,11 @@ table .span24 {
 [class^="icon-"],
 [class*=" icon-"] {
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 22px;
+  height: 22px;
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("/assets/glyphicons-halflings.png");
-  background-position: 14px 14px;
   background-repeat: no-repeat;
 }
 

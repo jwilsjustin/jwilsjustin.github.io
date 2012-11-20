@@ -1,4 +1,5 @@
 /*
+ *= require 'font-awesome'
  *= require_self
  *= require_tree .
 */
@@ -152,6 +153,11 @@ a.minimal-indent:active {
   position:relative;
   top:1px;
 }
+.block-link-small {
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+}
 .block-link-red {
   background-color:#d26254;
   text-shadow:1px 1px 0px #983428; /* -6 from #d26254 */
@@ -165,4 +171,8 @@ a.minimal-indent:active {
 }
 .block-link-blue:hover {
   background-color: #31a9b8;
+}
+.block-link [class^="icon-"],
+.block-link [class*=" icon-"] {
+  line-height: 30px;
 }

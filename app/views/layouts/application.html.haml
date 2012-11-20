@@ -16,6 +16,8 @@
     = csrf_meta_tags
   %body
     = yield
+    = render "shared/footer_links"
   %footer
     - unless Rails.env == "development"
       = render "shared/google_analytics"
+    / Thank-you Font Awesome - http://fortawesome.github.com/Font-Awesome
