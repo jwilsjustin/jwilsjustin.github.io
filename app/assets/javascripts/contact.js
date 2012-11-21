@@ -1,6 +1,6 @@
 var username = "justin";
 var hostname = "jwils.co";
-var linktext = username + "@" + hostname;
+var linktext = username + "&#064;" + hostname;
 var lastfour = "9433"
 $(document).ready(function() {
   $('td h2#themessagesystem').html('<a href="mailto:' + linktext + '?Subject=Hello">' + linktext + '</a>')
