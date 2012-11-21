@@ -1,4 +1,9 @@
+var username = "justin";
+var hostname = "jwils.co";
+var linktext = username + "@" + hostname;
+var lastfour = "9433"
 $(document).ready(function() {
-  $('td h2#email').html('<a href="mailto:justin@jwils.co?Subject=Hello">justin@jwils.co</a>')
-  $('td h2#phone').html('<a href="tel:8647879433">864-787-9433</a>')
+  $('td h2#themessagesystem').html('<a href="mailto:' + linktext + '?Subject=Hello">' + linktext + '</a>')
+  $('td h2#contactdigits').html('<a href="tel:864787' + lastfour + '">864-787-' + lastfour + '</a>')
+  $('td h2#themessagesystemlabel').html('<small>Ema'+'il</small>')
 });
