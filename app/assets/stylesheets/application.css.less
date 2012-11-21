@@ -54,12 +54,15 @@ only screen and (min-device-pixel-ratio : 1.5) {
   margin: 0;
   margin-bottom: 10px;
 }
-@media (max-width: 979px) and (min-width: 768px) {
+.breaker-block {
+  display: block;
+}
+@media (max-width: 979px) and (min-width: 767px) {
   .row .pull-right {
     float: right;
   }
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 767px) {
   .spacer {
     height: 15px;
   }
@@ -69,6 +72,9 @@ only screen and (min-device-pixel-ratio : 1.5) {
   }
   hr {
     margin: 15px 0
+  }
+  .breaker {
+    display: block;
   }
 }
 ul li {
