@@ -4,7 +4,8 @@ JwilsCo::Application.routes.draw do
 
   get "contents/index"
   match "/portfolio" => "contents#portfolio"
-  match "/resume" => "contents#resume" 
+  match "/resume" => "contents#resume"
+  match "/contact" => "contents#contact"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
