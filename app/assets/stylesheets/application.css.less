@@ -3,6 +3,14 @@
  *= require_self
  *= require_tree .
 */
+/* 
+SITE COLORS:
+  light gray:   #afafaf
+  salmon:       #d16153
+  turquoise:    #2e9dab
+  stone:        #c4b6b5
+  slate:        #666767
+*/
 body {
   background: #ffffff url(grid.png) repeat;
 }
@@ -21,10 +29,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
   background: #e7aca5;
 }
 .light-header {
-  color: #d26254;
   font-size: 79px;
   line-height: 83px;
   font-weight: lighter;
+  border: none !important;
 }
 .tweet {
   font-size: 16px;
@@ -73,6 +81,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
   hr {
     margin: 15px 0
   }
+}
+@media only screen and (max-width: 480px) {
   .breaker {
     display: block;
   }
@@ -137,4 +147,29 @@ ul li {
 .block-link [class^="icon-"],
 .block-link [class*=" icon-"] {
   line-height: 30px;
+}
+.row p span.label {
+  font-size: 16px;
+}
+#portfolio {
+  h1 {
+    border-bottom: 1px solid #DDD;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+.light-gray {
+  color: #afafaf;
+}  
+.salmon {
+  color: #d26254;
+}
+.turquoise {
+  color: #2e9dab;
+}
+.stone {
+  color: #c4b6b5;
+}
+.slate {
+  color: #666767;
 }

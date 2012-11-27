@@ -1,13 +1,55 @@
 - @title = "Portfolio"
 - @meta_description = "Justin Wilson's work."
 
-.container
-  .row.spacer
+.container#portfolio
   .row
-    .span10
-      %h1.light-header Portfolio
-      %hr
+    = render "shared/sweet_nav"
+  .spacer
   .row
-    = render "shared/sweet_nav"   
     .span9
-      %h2 Design is everywhere.
+      %h1.light-header.turquoise Portfolio
+  .spacer
+      
+  .row
+    .span9
+      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      %h2 Jump to: 
+      %table.table.table-striped.table-bordered
+        %tbody
+          %tr
+            %td
+              %h2 <a href="#">Logos</a>
+            %td
+              %h2 <a href="#">T-shirts</a>
+          %tr
+            %td
+              %h2 <a href="#">Planes</a>
+            %td
+              %h2 <a href="#">Alchemist</a>
+
+  .spacer
+  .row
+    .span9.section
+      %h1.turquoise Identity
+      .item
+        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+        %p <span class="label">Identity</span> <span class="label">Illustrator</span>
+  .row
+    .span9
+      %img{:src => "http://placekitten.com/700/300"}
+  
+  .spacer
+  .row
+    .span9.section
+      %h1.turquoise Planes
+      .item
+        %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+        %p <span class="label">Printmaking</span> <span class="label">Illustration</span>
+  .row
+    .span3
+      %img{:src => "http://placekitten.com/225/350"}
+    .span3
+      %img{:src => "http://placekitten.com/270/420"}
+    .span3
+      %img{:src => "http://placekitten.com/450/700"}
+.row.spacer

@@ -9,10 +9,10 @@ class ContentsController < ApplicationController
     end
   end
 
-  def resume
+  def portfolio
   end
 
-  def portfolio
+  def resume
   end
 
   def contact
