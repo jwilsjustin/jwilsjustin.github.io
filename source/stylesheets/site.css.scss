@@ -22,16 +22,16 @@
 
     */
 
-@font-face {
-  font-family: "FontAwesome";
-  src: url('/assets/fontawesome-webfont-7cf1b0de49e2f8672c9ad6d9e382115f.eot');
-  src: url('/assets/fontawesome-webfont.eot?#iefix') format('eot'),
-       url('/assets/fontawesome-webfont-9c0e35b95bf9cea29c77678ebf71a29d.woff') format('woff'),
-       url('/assets/fontawesome-webfont-1e29be0bb354c9f664cbca7df9a966d8.ttf') format('truetype'),
-       url('/assets/fontawesome-webfont.svg#FontAwesome') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "FontAwesome";
+//   src: url('/assets/fontawesome-webfont-7cf1b0de49e2f8672c9ad6d9e382115f.eot');
+//   src: url('/assets/fontawesome-webfont.eot?#iefix') format('eot'),
+//        url('/assets/fontawesome-webfont-9c0e35b95bf9cea29c77678ebf71a29d.woff') format('woff'),
+//        url('/assets/fontawesome-webfont-1e29be0bb354c9f664cbca7df9a966d8.ttf') format('truetype'),
+//        url('/assets/fontawesome-webfont.svg#FontAwesome') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
 /*  Font Awesome styles
     ------------------------------------------------------- */
@@ -442,6 +442,16 @@ ul li {
 .block-link-clear:hover {
   background-color: #fff;
   color: #555;
+  text-shadow: none;
+}
+.block-link-white {
+  background-color: #fff;
+  color: #555;
+  text-shadow: none;
+}
+.block-link-white:hover {
+  background-color: #fff;
+  color: #787878;
   text-shadow: none;
 }
 .block-link-red {
@@ -5049,7 +5059,7 @@ a.badge:hover {
   position: fixed;
   width: 220px;
   height: 500px;
-  top: 125px;
+  top: 100px;
   right: 100px;
 }
 #sweet_nav ul {
@@ -5103,7 +5113,7 @@ a.badge:hover {
   }
   #sweet_nav ul li a {
     float: left;
-    width: 31.33%;
+    width: 46.33%;
     margin: 0 3px;
     margin-bottom: 15px;
     text-align: center;
