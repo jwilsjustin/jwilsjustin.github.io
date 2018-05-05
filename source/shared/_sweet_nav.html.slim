@@ -1,0 +1,17 @@
+.span3.pull-right#sweet_nav
+  .vr.pull-left
+  .self_img_div
+    = link_to '/' do
+      img.self src="/images/self-portrait-site.png" alt="why would you be reading alt text??"
+  ul
+    li.hidden-phone
+      = link_to '/', :class => "block-link block-link-clear" do
+        i.icon-home
+    li
+      = link_to '/resume', :class => "block-link block-link-red" do
+        | R&egrave;sum&egrave;
+    li
+      = link_to '/contact', :class => "block-link" do
+        | Contact
+  .clearfix
+hr.visible-phone
