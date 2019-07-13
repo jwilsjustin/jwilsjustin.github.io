@@ -1,8 +1,8 @@
 ## Personal site on GitHub Sites with [middleman](https://middlemanapp.com)
 
-- Home: [www.jwils.co](http://www.jwils.co)
-- Resume: [www.jwils.co/resume.html](http://www.jwils.co/resume.html)
-- Contact: [www.jwils.co/contact.html](http://www.jwils.co/contact.html)
+- Home: [www.jwils.co](https://www.jwils.co)
+- Resume: [www.jwils.co/resume.html](https://www.jwils.co/resume.html)
+- Contact: [www.jwils.co/contact.html](https://www.jwils.co/contact.html)
 
 ## More links
 
