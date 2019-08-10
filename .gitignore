@@ -4,11 +4,10 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile ~/.gitignore_global
 
-/.sass-cache
-
-# Ignore bundler config
 /.bundle
-
-/log/*.log
-/tmp
+/.sass-cache
+/.tmp
 /build
+/log/*.log
+/node_modules
+/tmp
