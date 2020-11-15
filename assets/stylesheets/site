@@ -758,7 +758,7 @@ body {
   margin: 40px 0; }
 
 .subtle {
-  color: #bbbbbb; }
+  color: #333333; }
 
 .section h2 {
   color: #d26254;
