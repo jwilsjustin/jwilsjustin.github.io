@@ -3,21 +3,21 @@
 
 activate :external_pipeline,
   name: :webpack,
-  command: build? ? 'yarn run build' : 'yarn run start',
-  source: 'dist',
+  command: build? ? "yarn run build" : "yarn run start",
+  source: "dist",
   latency: 1
 
-set :css_dir, 'assets/stylesheets'
-set :js_dir, 'assets/javascript'
-set :images_dir, 'images'
+set :css_dir, "assets/stylesheets"
+set :js_dir, "assets/javascript"
+set :images_dir, "images"
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
 # Per-page layout changes
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
+page "/*.xml", layout: false
+page "/*.json", layout: false
+page "/*.txt", layout: false
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
@@ -53,6 +53,6 @@ page '/*.txt', layout: false
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  deploy.branch = 'main'
+  deploy.branch = "main"
   deploy.build_before = true
 end
