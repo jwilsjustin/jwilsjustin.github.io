@@ -6,26 +6,12 @@
   "author": "Justin Wilson <justin@jwils.co>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.1.5",
-    "@babel/preset-env": "^7.1.5",
-    "babel-loader": "^8.0.4",
-    "css-loader": "^1.0.1",
-    "eslint": "^5.9.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "node-sass": "^4.10.0",
-    "postcss-loader": "^3.0.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "stylelint": "^9.8.0",
-    "stylelint-config-recommended-scss": "^3.2.0",
-    "stylelint-scss": "^3.4.0",
-    "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6"
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18"
   },
   "scripts": {
-    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
-    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
+    "start": "yarn tailwindcss -i ./source/assets/stylesheets/main.css -o ./dist/main.css --watch",
+    "build": "yarn tailwindcss -i ./source/assets/stylesheets/main.css -o .dist/main"
   },
   "dependencies": {}
 }
