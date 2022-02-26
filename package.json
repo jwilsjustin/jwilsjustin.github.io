@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "yarn tailwindcss -i ./source/assets/stylesheets/main.css -o ./dist/main.css --watch",
-    "build": "yarn tailwindcss -i ./source/assets/stylesheets/main.css -o .dist/main"
+    "build": "yarn tailwindcss -i ./source/assets/stylesheets/main.css -o .dist/main.css"
   },
   "dependencies": {}
 }
