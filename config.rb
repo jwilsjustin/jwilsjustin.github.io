@@ -53,6 +53,6 @@ page '/*.txt', layout: false
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  deploy.branch = 'main'
+  deploy.branch = "gh-pages"
   deploy.build_before = true
 end
