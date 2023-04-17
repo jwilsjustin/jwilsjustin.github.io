@@ -7,6 +7,7 @@ gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 gem 'sass'
 gem 'slim'
 gem 'mini_racer'
+gem 'rake'
 
 group :development do
   gem 'rubocop'
