@@ -1,0 +1,35 @@
+.container#portfolio
+  .row
+    = partial "shared/sweet_nav"
+  .spacer
+  .row
+    .span10
+      #mc1diz7tyvt4
+        a href="https://staging.moonclerk.com/pay/1diz7tyvt4" Donate to me
+      javascript:
+        var mc1diz7tyvt4;
+        (function (d, t) {
+          var s = d.createElement(t),
+            opts = {
+              "cid": "12345",
+              "amount_cents": 40000,
+              "name": "Justin",
+              "email": "justin+nospam@example.com",
+              "checkoutToken": '1diz7tyvt4',
+              "width": '80%',
+              "host": 'staging.moonclerk.com',
+              "ssl": true,
+              "scrollOffsetTop": 200
+            }
+          s.src = 'https://d4m3xhfao1kky.cloudfront.net/assets/embed.js'
+          s.onload = s.onreadystatechange = function () {
+            var rs = this.readyState
+            if (rs) if (rs != 'complete') if (rs != 'loaded') return
+            try {
+              mc1diz7tyvt4 = new MoonclerkEmbed(opts)
+              mc1diz7tyvt4.display()
+            } catch (e) {}
+          }
+          var scr = d.getElementsByTagName(t)[0]
+          scr.parentNode.insertBefore(s, scr)
+        })(document, 'script')
