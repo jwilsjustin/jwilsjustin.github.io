@@ -1,6 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    actionview (7.0.4.3)
+      activesupport (= 7.0.4.3)
+      builder (~> 3.1)
+      erubi (~> 1.4)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.1, >= 1.2.0)
     activesupport (7.0.4.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
@@ -10,13 +16,30 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     backports (3.24.0)
+    better_html (2.0.2)
+      actionview (>= 6.0)
+      activesupport (>= 6.0)
+      ast (~> 2.0)
+      erubi (~> 1.4)
+      parser (>= 2.4)
+      smart_properties
+    builder (3.2.4)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.2.2)
     contracts (0.16.1)
+    crass (1.0.6)
     dotenv (2.8.1)
+    erb_lint (0.5.0)
+      activesupport
+      better_html (>= 2.0.1)
+      parser (>= 2.7.1.4)
+      rainbow
+      rubocop
+      smart_properties
+    erubi (1.12.0)
     erubis (2.7.0)
     execjs (2.8.1)
     fast_blank (1.0.1)
@@ -37,6 +60,9 @@ GEM
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    loofah (2.21.3)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.12.0)
     memoist (0.16.2)
     middleman (4.4.3)
       coffee-script (~> 2.2)
@@ -71,7 +97,11 @@ GEM
       toml
       uglifier (~> 3.0)
       webrick
+    mini_portile2 (2.8.4)
     minitest (5.14.2)
+    nokogiri (1.15.4)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.3)
@@ -82,7 +112,15 @@ GEM
       ast (~> 2.4.1)
     parslet (2.0.0)
     public_suffix (5.0.1)
+    racc (1.7.1)
     rack (2.2.6.4)
+    rails-dom-testing (2.2.0)
+      activesupport (>= 5.0.0)
+      minitest
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.6.0)
+      loofah (~> 2.21)
+      nokogiri (~> 1.14)
     rainbow (3.1.1)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
@@ -116,6 +154,7 @@ GEM
     slim (4.1.0)
       temple (>= 0.7.6, < 0.9)
       tilt (>= 2.0.6, < 2.1)
+    smart_properties (1.17.0)
     standard (1.25.3)
       language_server-protocol (~> 3.17.0.2)
       rubocop (~> 1.48.1)
@@ -136,6 +175,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  erb_lint
   middleman
   sass
   slim
