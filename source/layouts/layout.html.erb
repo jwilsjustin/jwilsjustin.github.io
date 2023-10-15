@@ -10,13 +10,12 @@
     <%= stylesheet_link_tag "main" %>
   </head>
   <body class="font-serif antialiased bg-white">
-    <div class="md:flex md:flex-col md:justify-center sm:py-12 relative min-h-screen py-6 overflow-hidden bg-white">
-      <!-- <img src="<%#= image_url("beams.jpg") %>" alt="" class="top-1/2 left-1/2 max-w-none absolute -translate-x-1/2 -translate-y-1/2" width="1308" /> -->
+    <div class="flex flex-col justify-center sm:py-12 relative min-h-screen py-6 overflow-hidden bg-gray-50">
+      <img src="<%= image_url("beams.jpg") %>" alt="" class="top-48 left-0 max-w-none absolute -translate-x-1/2 -translate-y-1/2" width="1308" />
       <div class="absolute inset-0 bg-[url('/assets/images/grid.svg')] bg-center [mask-image:linear-gradient(135deg,white,rgba(255,255,255,0))] z-0"></div>
       <div class="md:px-0 relative z-10 px-4">
         <%= yield %>
       </div>
-      <%#= partial "shared/footer_links" %>
     </div>
   </body>
 </html>
