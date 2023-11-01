@@ -165,6 +165,9 @@ GEM
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
+    slim (5.1.0)
+      temple (~> 0.10.0)
+      tilt (>= 2.0.6, < 2.2)
     smart_properties (1.17.0)
     standard (1.31.1)
       language_server-protocol (~> 3.17.0.2)
@@ -197,6 +200,7 @@ DEPENDENCIES
   erb_lint
   middleman (= 4.4.3)
   middleman-deploy!
+  slim
   standard
 
 BUNDLED WITH
