@@ -6,8 +6,8 @@
   "author": "Justin Wilson <justin@jwils.co>",
   "license": "MIT",
   "devDependencies": {
-    "postcss": "^8.4.6",
-    "tailwindcss": "^3.0.18"
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
   },
   "scripts": {
     "start": "yarn tailwindcss -i ./source/assets/stylesheets/main.css -o ./dist/main.css --watch",
