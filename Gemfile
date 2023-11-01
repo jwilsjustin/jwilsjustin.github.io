@@ -1,14 +1,9 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'middleman', '~> 4.4'
-gem 'middleman-autoprefixer', '~> 2.7'
-gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
-
-gem 'sass'
-gem 'slim'
-gem 'mini_racer'
-gem 'rake'
+gem "middleman", "4.4.3"
+gem "middleman-deploy", git: "https://github.com/cabgfx/middleman-deploy", branch: "master"
 
 group :development do
-  gem 'rubocop'
+  gem "standard"
+  gem "erb_lint", require: false
 end
