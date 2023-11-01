@@ -1,8 +1,7 @@
 source "https://rubygems.org"
 
-gem "middleman"
-gem "sass"
-gem "slim"
+gem "middleman", "4.4.3"
+gem "middleman-deploy", git: "https://github.com/cabgfx/middleman-deploy", branch: "master"
 
 group :development do
   gem "standard"
