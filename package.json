@@ -10,8 +10,8 @@
     "tailwindcss": "^3.3.5"
   },
   "scripts": {
-    "start": "yarn tailwindcss -i ./source/assets/stylesheets/main.css -o ./dist/main.css --watch",
-    "build": "yarn tailwindcss -i ./source/assets/stylesheets/main.css -o .dist/main.css"
+    "start": "yarn build --watch",
+    "build": "yarn tailwindcss -i ./source/assets/stylesheets/main.css -o ./dist/main.css"
   },
   "dependencies": {}
 }
