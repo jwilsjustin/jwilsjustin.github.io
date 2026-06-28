@@ -12,6 +12,5 @@
   "scripts": {
     "start": "yarn build --watch",
     "build": "yarn tailwindcss -i ./source/assets/stylesheets/main.css -o ./dist/main.css"
-  },
-  "dependencies": {}
+  }
 }

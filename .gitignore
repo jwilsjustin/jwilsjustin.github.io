@@ -13,3 +13,4 @@
 build
 dist
 node_modules
+.yarn/install-state.gz
